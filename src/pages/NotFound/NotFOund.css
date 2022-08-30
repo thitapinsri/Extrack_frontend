@@ -1,0 +1,27 @@
+/* .notfound {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notfound img {
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.notfound a {
+    border: 2px solid black;
+    padding: 1.5rem 2rem;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+}
+
+.notfound a:hover {
+    background-color: #DAFC3D;
+    color: #000;
+    transition: all 0.1s;
+    text-decoration: none;
+} */

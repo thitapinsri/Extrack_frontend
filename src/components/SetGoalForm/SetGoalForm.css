@@ -1,0 +1,58 @@
+.setgoal {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.setgoal .update-goal {
+    display: flex;
+    flex-direction: column;
+}
+
+.setgoal .update-goal #goal-h2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.setgoal .update-goal .goal-form {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+    justify-content: center;
+}
+
+.setgoal .update-goal .goal-form label {
+    margin: 5px 0;
+}
+
+.setgoal .update-goal .goal-form input {
+    font-family: 'DM Sans', sans-serif;
+    padding: 0.25rem;
+    margin: 0.75rem 0;
+    box-sizing: border-box;
+    width: 320px;
+    height: 48px;
+    border: 2px solid black;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.setgoal button {
+    margin: 0.75rem 0;
+    background: black;
+    color: white;
+    height: 3rem;
+    transition: all 0.1s;
+    border-radius: 0.25rem;;
+}
+
+.setgoal button:hover {
+    margin: 0.75rem 0;
+    background: #dafc3d;
+    color: black;
+    height: 3rem;
+    transition: all 0.1s;
+}

@@ -1,0 +1,75 @@
+.signin form {
+    margin: 0;
+}
+
+.container-signin {
+  display: flex;
+  width: 100%;
+}
+
+.container-sigin-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-signin section {
+  height: 100vh;
+  width: 50%;
+}
+
+/* @media (max-width: 768px) {
+    .container-signin .img-signin, .container-signin .img-signin img {
+    display: none;
+  }
+  .container-signin .form-signin .container-sigin-form {
+    width: 100%;
+  }
+} */
+
+.container-signin .img-signin {
+  background-color: #c7bef3;
+  border-left: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-signin .img-signin img {
+  width: 720px;
+  height: 740px;
+}
+
+/* .container-signin .left-signin {
+    padding: 50px;
+} */
+
+.container-signin .form-signin {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 50%;
+  gap: 12.5% 0;
+}
+
+.container-signin .formsign h1 {
+    font-size: 40px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.container-signin .form-signin .container {
+  display: flex;
+  flex-direction: column;
+  /* height: auto; */
+  /* padding-top: 100px; */
+}
+
+@media (max-width: 768px) {
+  .img-signin, .img-signin img, .container-signin .img-signin {
+    display: none;
+  }
+  .container-signin .form-signin {
+    width: 100%;
+  }
+}

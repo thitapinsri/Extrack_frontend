@@ -1,0 +1,53 @@
+
+.signin label {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.signin select, .signin input, .signin textarea, .signin button {
+    font-family: 'DM Sans', sans-serif;
+    padding: 0.25rem;
+    margin: 0.75rem 0;
+    box-sizing: border-box;
+    width: 320px;
+    height: 48px;
+    border: 2px solid black;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.signin textarea {
+    min-height: 72px;
+    resize: vertical;
+}
+
+.signin h1 {
+    font-size: 40px;
+    margin: 30px 0;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.signin button {
+    margin: 0.75rem 0;
+    background: black;
+    color: white;
+    height: 3rem;
+    transition: all 0.1s;
+
+}
+.signin button:hover {
+    margin: 0.75rem 0;
+    background: #dafc3d;
+    color: black;
+    height: 3rem;
+    transition: all 0.1s;
+}
+
+
+.signin .error {
+    color: red;
+    margin: 0;
+    padding: 0;
+}

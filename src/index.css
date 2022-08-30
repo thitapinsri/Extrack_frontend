@@ -1,0 +1,140 @@
+html, body {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  
+  background-color: #FFFFF4
+} 
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+}
+
+button {
+    font-family: 'Space Grotesk', sans-serif;
+  
+}
+
+form{
+  margin: 2rem;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form label {
+  font-size: 1.125rem;
+  font-weight: 500
+}
+
+form select, form input, form textarea, form button {
+  font-family: 'DM Sans', sans-serif;
+  padding: 0.25rem;
+  margin: 0.75rem 0;
+  box-sizing: border-box;
+  width: 320px;
+  height: 48px;
+  border: 2px solid black;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+form textarea {
+  min-height: 72px;
+  resize: vertical;
+}
+
+form button {
+  margin: 0.75rem 0;
+  background: black;
+  color: white;
+  height: 3rem;
+  transition: all 0.1s;
+
+}
+form button:hover {
+  margin: 0.75rem 0;
+  background: #dafc3d;
+  color: black;
+  height: 3rem;
+  transition: all 0.1s;
+}
+
+
+form .error {
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+form .scale-num {
+  display: inline-flex;
+  justify-content: space-between;
+   width: 320px;
+}
+
+form .scale-num p {
+  padding:0 1rem;
+}
+
+
+input[type="range"] {
+  -webkit-appearance: none;
+  margin: 2rem 0 1rem;
+  height: 8px;
+  background: white;
+  border-radius: 4px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: black;
+  cursor: ew-resize;
+  transition: background .3s ease-in-out;
+}
+
+input[type=range]::-webkit-slider-runnable-track  {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+.notfound {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.notfound img {
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.notfound a {
+  border: 2px solid black;
+  padding: 1.5rem 2rem;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+}
+
+.notfound a:hover {
+  background-color: #DAFC3D;
+  color: #000;
+  transition: all 0.1s;
+  text-decoration: none;
+}

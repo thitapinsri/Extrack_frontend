@@ -1,0 +1,42 @@
+.setting {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.setting h1 {
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.setting .container {
+  max-width: 1080px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.setting a {
+  margin: 0 auto;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .setting .container {
+    max-width: 1080px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.setting h2 {
+  padding: 0 2rem;
+}
+

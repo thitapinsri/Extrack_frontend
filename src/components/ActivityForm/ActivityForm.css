@@ -1,0 +1,12 @@
+.activity-form{
+    margin: 2rem;;
+    display: flex;
+    justify-content: center;
+}
+.activity-form label {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+
+

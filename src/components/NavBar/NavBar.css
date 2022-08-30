@@ -1,0 +1,106 @@
+.navbar-container {
+  padding: 0 0 0 2rem;
+  background-color: #fdfefe;
+  border-bottom: 2px solid black;
+  /* display: flex;
+    justify-content: center; */
+}
+
+.navbar {
+  height: 72px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.navbar .logo {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* set up button */
+
+.navbar .signupbutton {
+  /* margin-right: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dafc3d;
+  height: 72px;
+  width: 140px;
+  border-left: 2px solid black;
+}
+
+.navbar .startbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  height: 74px;
+  width: 140px;
+  border-left: 2px solid black;
+}
+
+.navbar .startbutton:hover {
+  background-color: #dafc3d;
+  color: #000;
+  transition: all 0.1s;
+}
+
+.navbar .settingbutton {
+  margin-right: 30px;
+}
+
+/* .navbar .logo h1 {
+
+} */
+
+.navbar .logo img {
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.navbar nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar nav a {
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+.navbar nav a:hover {
+  color: darkgray;
+}
+
+.navbar nav a p {
+  background-color: #fff573;
+  padding: 0.75rem;
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+.navbar nav a p:hover {
+  background-color: black;
+  color: white;
+  padding: 0.75rem;
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+.user .navbar {
+  max-width: 1280px;
+}

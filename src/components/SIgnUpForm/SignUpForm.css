@@ -1,0 +1,42 @@
+
+
+.form-signup form {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: auto;
+  padding-top: 20px; */
+  padding-bottom: 20px;
+}
+
+.form-signup button {
+  margin-top: 2rem;
+}
+
+.formsignup h2 {
+  font-size: 40px;
+  display: inline-flex;
+  justify-content: center;
+  margin: 8px 0 32px;
+}
+
+/* .submit-signup {
+  margin: 40px 0;
+  background: #000;
+  color: white;
+  height: 3rem;
+  transition: all 0.1s;
+}
+
+.submit-signup:hover {
+  margin: 30px 0;
+  background: #dafc3d;
+  color: black;
+  height: 3rem;
+  transition: all 0.1s;
+} */
+
+.error-signup {
+  color: red;
+}
