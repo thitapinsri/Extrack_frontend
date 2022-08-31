@@ -53,7 +53,7 @@ form textarea {
 }
 
 form button {
-  margin: 0.75rem 0;
+  margin: 0.75rem auto;
   background: black;
   color: white;
   height: 3rem;
@@ -61,7 +61,6 @@ form button {
 
 }
 form button:hover {
-  margin: 0.75rem 0;
   background: #dafc3d;
   color: black;
   height: 3rem;

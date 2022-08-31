@@ -38,7 +38,7 @@ const Setting = () => {
       {user.username && (
         <>
           <SettingForm user={user} />
-          <SetGoalForm user={user} isUpdate={true} />
+          {/* <SetGoalForm user={user} /> */}
         </>
       )}
     </div>

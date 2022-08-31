@@ -53,27 +53,6 @@ const Dashboard = () => {
   };
   getGoalAchieved();
 
-
-  // get Gretting
-  const [greeting, setGreeting] = useState('Dashboard')
-
-  const getGetting = (user) => {
-    // if (user.name) {
-      let greet;
-      let myDate = new Date();
-      let hrs = myDate.getHours();
-
-      if (hrs < 12)
-        greet = 'Good Morning';
-      else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon';
-      else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening';
-
-      setGreeting(`${greet},  ${user.name}!`)
-    // }
-  }
-
   useEffect(() => {
     getUserInfo()
     getDailyStats();
@@ -87,6 +66,7 @@ const Dashboard = () => {
     height: "40px",
     padding: "5px",
   };
+  
   return (
     <div className="dash-board">
       <div className="container-dash">
@@ -98,7 +78,7 @@ const Dashboard = () => {
           <div className="upleftsub">
             <div className="upleftsub-head">
 
-              <h1>{greeting}</h1>
+              <h1>Dashboard</h1>
             </div>
             <div className="upleftsub-board">
               <div className="goal-dash">

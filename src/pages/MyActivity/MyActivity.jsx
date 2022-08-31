@@ -13,7 +13,7 @@ const MyActivity = () => {
   const [cards, setCards] = useState([])
   const [loading, setLoading] = useState(false)
   const [currentPage, setCurrentPage] = useState(1)
-  const [cardPerPage] = useState(5)
+  const cardPerPage = 4
   
   const getData = async () => {
     setLoading(true)

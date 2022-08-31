@@ -1,7 +1,7 @@
 .card {
     /* max-width: 540px; */
     /* width: 80%; */
-    padding: 0.5rem;
+    padding: 0.5rem 0.5rem 1rem;
     margin: 2rem auto;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 1) 8px 8px 0px;
@@ -45,11 +45,14 @@
     padding-right: 2rem;
 }
 
+.card .card-body .card-detail p {
+    margin-bottom: 0.5rem;
+}
+
 .card .card-body .card-text {
     width: 65%;
     word-wrap: break-word;
 }
-
 @media (max-width: 650px) {
     .card .card-body {
         flex-direction: column;

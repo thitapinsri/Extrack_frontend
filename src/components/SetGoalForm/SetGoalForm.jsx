@@ -5,7 +5,7 @@ import api from "/configs/api";
 
 import "./SetGoalForm.css";
 
-const SetGoalForm = ({ user, isUpdate }) => {
+const SetGoalForm = ({ user }) => {
   const navigate = useNavigate();
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
 

@@ -32,9 +32,9 @@ const Card = ({ card, onRemove }) => {
                 </div>
                 <div className="card-body">
                     <div className="card-detail">
-                        <p>type: {card.activity_type}</p>
-                        <p>activity: {card.activity_name}</p>
-                        <p>duration: {card.duration}</p>
+                        <p><strong>type:</strong> {card.activity_type}</p>
+                        <p><strong>activity:</strong> {card.activity_name}</p>
+                        <p><strong>duration:</strong> {card.duration}</p>
                     </div>
                     <div className="card-text">
                         <p>{card.comment}</p>
