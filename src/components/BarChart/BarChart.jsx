@@ -9,11 +9,8 @@ const BarChart = ({ dailyStats, loading }) => {
 
 
   const getWeekDay = (firstDay) => {
-    const day = firstDay.getDay()
+    const day = (firstDay.getDay() + 1);
     switch (day) {
-      case 0:
-        return ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
-        break
       case 1:
         return ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
         break
@@ -25,12 +22,15 @@ const BarChart = ({ dailyStats, loading }) => {
         break
       case 4:
         return ['thu', 'fri', 'sat', 'sun', 'mon', 'tue', 'wed']
-          break
+        break
       case 5:
         return ['fri', 'sat', 'sun', 'mon', 'tue', 'wed', 'thu']
         break
       case 6:
         return ['sat', 'sun', 'mon', 'tue', 'wed', 'thu', 'fri']
+        break
+      case 7:
+        return ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
         break
     }
   }
@@ -44,7 +44,7 @@ const BarChart = ({ dailyStats, loading }) => {
     });
     // console.log('date', sevenDays)
 
-    const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000 + (7 * 60 * 60 * 1000))
+    const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000) // + (7 * 60 * 60 * 1000)
 
     // get last 7 days' data
     let currentWeek = []
@@ -73,9 +73,8 @@ const BarChart = ({ dailyStats, loading }) => {
     setTrackingValue(reversedValues)
 
     // set keys of chart
-    // setTrackingName(Object.keys(weeklyStats))
+    // setTrackingName(Object.keys(weeklyStats).reverse())
     setTrackingName(getWeekDay(sevenDaysAgo))
-
   }
 
   useEffect(() => {
@@ -110,7 +109,7 @@ const BarChart = ({ dailyStats, loading }) => {
 
             subtitle: {
               text: "",
-              style: { fontSize: 18, fontFamily: 'Space Grotesk'},
+              style: { fontSize: 18, fontFamily: 'Space Grotesk' },
             },
 
             colors: ["#000"],  //สีกราฟแท่ง 
